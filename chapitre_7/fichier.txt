@@ -1,0 +1,4 @@
+On a créé une classe Article qui contient :
+
+deux propriétés : titre et contenu , une méthode afficher() pour afficher les informations
+
