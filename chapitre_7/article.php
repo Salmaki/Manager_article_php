@@ -3,20 +3,19 @@ class Article {
     public $titre;
     public $contenu;
 
-    public function __construct($titre, $contenu) {
-        $this->titre = $titre;
-        $this->contenu = $contenu;
-    }
-
     public function afficher() {
         return "Titre : " . $this->titre . " - Contenu : " . $this->contenu;
     }
 }
 
-$article1 = new Article("Introduction à PHP", "PHP est un langage de script côté serveur.");
-$article1->afficher();
+$article1 = new Article();
+$article1->titre = "Introduction à PHP";
+$article1->contenu = "PHP est un langage de script côté serveur.";
 
-echo "<br>";
+echo $article1->afficher();
 
-$article2 = new Article("Programmation orientée objet", "La POO facilite la modularité.");
-$article2->afficher();
+$article2 = new Article();
+$article2->titre = "Programmation orientée objet";
+$article2->contenu = "La POO facilite la modularité et la maintenance.";
+
+echo "<br>" . $article2->afficher();
