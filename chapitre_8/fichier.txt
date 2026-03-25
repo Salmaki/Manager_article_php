@@ -1,0 +1,7 @@
+Une classe de base contient le titre et le contenu
+Une autre classe hérite d’elle et ajoute l’auteur
+On affiche ensuite toutes les informations 
+utiliser class pour créer une classe
+utiliser extends pour l’héritage
+utiliser __construct pour initialiser les données
+utiliser parent::__construct pour appeler le constructeur du parent.
