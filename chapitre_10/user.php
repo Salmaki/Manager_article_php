@@ -3,7 +3,7 @@ class user
 {
 
     private $conn;
-    private $table = "users";
+    private $table = "utilisateur";
 
 
     public $id;

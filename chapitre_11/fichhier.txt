@@ -1,0 +1,4 @@
+On exécute des requêtes SQL (SELECT, INSERT, UPDATE, DELETE) 
+en utilisant query() et surtout prepare() + execute().
+Les résultats sont récupérés avec fetch() et fetchAll()`, 
+ce qui facilite la gestion des données.
