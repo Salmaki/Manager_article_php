@@ -1,0 +1,9 @@
+Organiser un projet en programmation orientée objet (POO) pour manipuler une base de données
+On a séparé le code en classes pour le rendre :
+plus organisé , plus clair.
+
+Contient les méthodes CRUD :
+create() → ajouter un utilisateur
+read() → lire tous les utilisateurs
+update() → modifier un utilisateur
+delete() → supprimer un utilisateur
